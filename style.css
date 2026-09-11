@@ -1,0 +1,80 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #fca23a, #db7a0b);
+    background-repeat: stretch;
+
+    font-family: "Valley Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#concertDisplay {
+    font-size: 25vh;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    top: 10vh;
+    transform: translate(-50%, -50%);
+}
+
+.controls {
+    background-color: #2eb02c;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10vh;
+    border: none;
+    padding: 5vh;
+}
+
+.controls > button {
+    font-size: 5vh;
+    color: #147513;
+    width: 15vh;
+    aspect-ratio: 1 / 1;
+    margin: 3vh;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 3vh;
+    background-color: #62d160;
+    border-color: #147513;
+}
+
+.header {
+    display: flex;
+    color: white;
+    gap: 3vh;
+    font-size: 2vh;
+    margin: 2vh;
+}
+
+.github {
+    width: 5vh;
+    height: 5vh;
+    transform: translateY(35%);
+    background-image: url('github.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+}
+
+.youtube {
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    top: 20%;
+    background-image: url('youtube.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    transform: scale(2, 2)
+
+}
