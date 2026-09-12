@@ -19,55 +19,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.displays {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    top: -10vh;
-
-    width: 75vw;
-    height: 50vh;
-
-    margin: 0 auto 5vh;
-}
-
-.bb,
-.f {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    width: 20%;
-}
-
-#concertDisplay {
-    order: 2;
+#bpmDisplay {
     font-size: 25vh;
-
-    margin: 0;
-}
-
-.bb {
-    order: 1;
-}
-
-.f {
-    order: 3;
-}
-
-#fLabel,
-#bbLabel {
-    font-size: 5vh;
-    margin: 0;
-}
-
-#fDisplay,
-#bbDisplay {
-    font-size: 15vh;
-    margin: 0;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 5vh;;
 }
 
 .controls {
