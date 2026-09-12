@@ -10,7 +10,6 @@ An all-in-one musical toolbox with everything you need when practicing!
 
 ## Planned features
 
-- Extra pitch displays for different instrument groups (need: Eb)
 - Octave switcher
 - Piano diagram to indicate what note you're on
 - Fingering charts

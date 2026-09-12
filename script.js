@@ -102,3 +102,5 @@ function decreaseFrequency() {
 
     is_on = true
 }
+
+changePitchDisplays();
