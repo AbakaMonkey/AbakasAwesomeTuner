@@ -6,7 +6,7 @@ An all-in-one musical toolbox with everything you need when practicing!
 
 - Tuner with simple frequency playback
 - Controls for switching semitones
-- Additional pitch displays for Bb and F instruments
+- Additional pitch displays for A, Bb, Eb, and F instruments
 
 ## Planned features
 

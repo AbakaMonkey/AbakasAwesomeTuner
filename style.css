@@ -27,13 +27,15 @@ body {
     align-items: center;
     top: -10vh;
 
-    width: 75vw;
+    width: 85vw;
     height: 50vh;
 
     margin: 0 auto 5vh;
 }
 
 .bb,
+.a,
+.eb,
 .f {
     display: flex;
     flex-direction: column;
@@ -51,20 +53,32 @@ body {
 }
 
 .bb {
-    order: 1;
+    order: 2;
+}
+
+.eb {
+    order: 4;
 }
 
 .f {
-    order: 3;
+    order: 5;
+}
+
+.a {
+    order: 1
 }
 
 #fLabel,
+#aLabel,
+#ebLabel,
 #bbLabel {
     font-size: 5vh;
     margin: 0;
 }
 
 #fDisplay,
+#aDisplay,
+#ebDisplay,
 #bbDisplay {
     font-size: 15vh;
     margin: 0;
